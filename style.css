@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#gamer{
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-between;
+    background-color: rgb(167, 14, 14);
+    padding: 80px;
+    gap:20px;
+}
+
+img{
+    
+    width: 400px;
+    border-radius: 4.5px;
+
+}
+ 
+h3{
+    font-size: xx-large;
+    color: #000000;
+    background-color: #faf6d3b2;
+    margin-bottom: 5px;
+}
+h4{
+    font-size: x-large;
+    color: #192a2b;
+    background-color: #cccab7bb;
+    
+}
+.cart{
+    padding: 10px 20px 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #03bdc7;
+    color: white;
+    font-size:20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px 20px 20px 10px;
+
+}
+
+.footer{
+    position: fixed;
+    margin-top: 10px;
+    padding: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(27, 22, 22);
+    color: white;
+    text-align: center;
+    font-family: 'Black Ops One';
+    font-size: 25px;
+    font-family: 'Black Ops One'
+}
+a{
+    color: #fdfdfd;
+    text-decoration: none;
+}
+a:hover{
+    color: #bdaf37;
+    text-decoration: none;
+}
+
